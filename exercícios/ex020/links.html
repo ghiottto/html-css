@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .destaque {
+            background-color: rgb(240, 156, 156);
+            
+        }
+
+        a::before {
+            content: '⇒ ';
+        }
+
+        a::after {
+            content: ' ⇐';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/ghiottto" target="_blank" rel="external">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCQUkjGnjvMauDBMRXLmSGlA" target="_blank" rel="external" class="destaque">Canal do YouTuve</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank" rel="external">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

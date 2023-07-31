@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(92, 91, 91);
+            margin: 0px;
+        }
+
+        header {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1 {
+            background:  linear-gradient( to right, black, lightgray 1200px); 
+            color: white;
+            
+        }
+
+        nav {
+            background-color: rgb(105, 104, 104);
+            padding: 3px;
+            box-shadow: 5px 4px 10px 1px #000000d1;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding-right: 30px;
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+
+        article {
+            background-color: rgb(167, 167, 167);
+            padding: 5px;
+            
+        }
+
+        article > p {
+            text-decoration: justify;
+        }
+
+        article > aside {
+            background-color: gray;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 4px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam ducimus delectus porro dolores, molestias aperiam dignissimos nulla quod ipsam, obcaecati maiores nam expedita deserunt perferendis laudantium culpa. Iure, rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum itaque error nihil harum iusto distinctio et natus dignissimos eius incidunt quod voluptatibus molestias, fugit corrupti nobis consequuntur pariatur tenetur!</p>
+            <aside>
+                <p>Artigo escrito porte José Antoneles</p>
+            </aside>
+        </article>
+    </main>
+    <footer><p>Desenvolvido por Ghiotto</p></footer>
+</body>
+</html>
